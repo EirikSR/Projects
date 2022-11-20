@@ -1,0 +1,77 @@
+#EX. 10.5
+SOLUTION_MASTER_SPECIES
+	Tca	Tca	0	Tca	133.4
+	Pce	Pce	0	Pce	165.8
+SOLUTION_SPECIES
+	Tca = Tca
+		log_k 0
+	Pce = Pce
+		log_k 0
+PHASES
+	Tca_lq
+	Tca = Tca
+		log_k -2.01	#log(solubility in mol/L)
+	Pce_lq
+	Pce = Pce
+		log_k -2.92
+SOLID_SOLUTIONS 1
+	Pool
+	-comp Tca_lq	0.0008
+	-comp Pce_lq	0.0008
+SOLUTION 1
+	-water 0.1
+END
+
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+
+USER_GRAPH 
+	-connect_simulations 
+	-axis_titles "Extraction" "mg / L"
+	-axis_scale x_axis 1 10 1
+	-headings Extr_no Tca Pce
+	10 graph_x sim_no-1
+	20 graph_y tot("Tca")*133.4e3, tot("Pce")*165.8e3
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+END
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+END
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+END
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+END
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+END
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+END
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+END
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+END
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+END
+USE Solution 1
+USE SOLID_SOLUTIONS 1
+SAVE SOLID_SOLUTIONS 1
+END
+
+	

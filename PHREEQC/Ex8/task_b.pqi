@@ -1,0 +1,44 @@
+DATABASE C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+
+SOLUTION_MASTER_SPECIES
+	Tce Tce 0.0 C2Cl3H 131.4
+SOLUTION_SPECIES
+	Tce = Tce
+		log_k 0
+
+
+RATES
+ S_degradation
+# dS/dt = -k_max * S / (k_half + S). k_max is maximal growth rate, g_phenol/L/s.
+# S is nutrient conc, g phenol/L.   k_half is half saturation conc., g_phenol/L.
+ -start
+  1 k_max = parm(1);   2 k_half = parm(2)          # parms defined in KINETICS
+ 10 S = tot("Tce")
+ 20 if S < 1e-3 then goto 50                       # quit at low conc.
+ 30 rate = - k_max * S /(k_half + S)
+ 40 dS = rate * time
+ 50 save dS
+ -end
+
+SOLUTION 1
+    units mol/L
+    Tce 0.1*1/133.4
+
+KINETICS 1
+ S_degradation
+ -formula Tce 1
+ -m0 0
+ -parms 0.00144 1.28                        # k_max in g phenol/L/s,  k_half in g/L
+ -steps 7200 in 200                                # 40 days
+INCREMENTAL_REACTIONS true
+
+USER_GRAPH
+ -headings time TCE
+ -chart_title "Degredation of 100mg TCE "
+ -axis_titles "Time / hours" "mol/L"
+ -start
+ 10 graph_x total_time / 3600
+ 20 graph_y tot("Tce")
+ -end
+END

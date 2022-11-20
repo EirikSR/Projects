@@ -1,0 +1,27 @@
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+
+Solution 0
+	
+    pH 12
+	Cu 0.001
+    K 0.100
+    N(5) 0.100
+    Cl 0.002 charge
+Surface 1
+	Hfo_w	0.001	600	0.2
+	Hfo_s		0.01
+
+REACTION 1
+	HNO3 0.050 
+    1 in 50
+
+USER_GRAPH 1
+	-headings Sulfur-consentration
+	-chart_title "Sulfur concentration vs. pH"
+	-axis_titles "Sulfur concentration in moles" "pH"
+	-axis_scale x_axis 0 0.3 0.01 0
+	-axis_scale y_axis 4 8 0.2
+	#-plot_concentration_vs pH
+	10 graph_y MOL("Cu")
+END

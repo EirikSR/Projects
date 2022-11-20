@@ -1,0 +1,39 @@
+public class egenOppgave {
+	
+	
+	public static void main(String[] args) {
+		
+		int ant = 1;
+		double tall2 = 0;
+		double tall3 = 1;
+		double tall4 = 1;
+		
+		regnNeste(ant, tall2, tall3, tall4);
+	}
+	
+	static void kjor(int ant, double t2, double t3, double t4 ){
+		ant ++;
+		
+		if (ant <= 100){
+			System.out.println(t3);
+			ant ++;
+			regnNeste(ant, t2, t3, t4);
+		}
+		
+		else {
+			System.out.println("Og det var det.");
+		}
+		
+
+	}
+	
+	
+	
+	static void regnNeste(int ant, double t2, double t3, double t4){
+		t4 = t3;
+		t3 = t3 + t2;
+		t2 = t4;
+		
+		kjor(ant, t2, t3, t4);
+	}
+}

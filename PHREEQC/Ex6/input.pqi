@@ -1,0 +1,62 @@
+DATABASE C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\WATEQ4F.dat
+
+SOLUTION 1
+ pH 2.3
+ units mmol/kgw
+ Na 23.8
+ K 0.1
+ Mg 2.0
+ Ca 11.6
+ C 1.7e-4
+ Cl 13.0 charge
+ P 0.08
+ S(6) 52.8
+ Al 6.5
+ Cd 0.01
+ Fe(3) 10.7
+ Fe(2) 0.27
+ U(6) 0.18
+ Zn 1.5
+ temp 10
+
+SURFACE 1
+ Hfo_w 0.2e-3 600 88e-3 
+ Hfo_s 0.5e-5
+ -equil 1
+
+EXCHANGE_SPECIES
+ H+ + X- = HX
+ log_k 1.0
+ -gamma 9.0 0.0
+
+REACTION 1
+	NaOH 0.105 
+    1 in 1000
+
+SELECTED_OUTPUT
+        -file   exercise6.xls
+        -pH
+USER_PUNCH		#Writes Cu data (mol) to exercise5.xls
+	-headings Zn(Kd) Cd(Kd) U(Kd)
+	20 PUNCH (1.5 - tot("Zn")*1000) / 1.5
+    30 PUNCH (0.01 - tot("Cd")*1000) / 0.01
+    50 PUNCH (0.18 - TOTMOLE("U(6)")*1000)/0.18
+
+USER_graph
+ -headings pH Kd-Zn Kd-Cd Kd-U
+ -chart_title "Kd for metals in 88 mg Ferrihydrite"
+ -axis_titles "pH"  "Kd"
+  -axis_scale x_axis 4 14 2 1
+  -connect_simulations true
+ -initial_solutions false
+ -start
+ 10 graph_x -la("H+")
+ 20 graph_y (1.5 - tot("Zn")*1000) / 1.5
+ 30 graph_y (0.01 - tot("Cd")*1000) / 0.01
+ 40 graph_y (0.18 - tot("U(6)")*1000) / 0.18
+ 
+ -end
+
+
+END
+

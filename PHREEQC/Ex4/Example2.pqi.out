@@ -1,0 +1,45 @@
+WARNING: Database file from DATABASE keyword is used; command line argument ignored.
+   Input file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\bin\Example2.pqi
+  Output file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\bin\Example2.pqi.out
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+------------------
+Reading data base.
+------------------
+
+	SOLUTION_MASTER_SPECIES
+	SOLUTION_SPECIES
+	PHASES
+	EXCHANGE_MASTER_SPECIES
+	EXCHANGE_SPECIES
+	SURFACE_MASTER_SPECIES
+	SURFACE_SPECIES
+	RATES
+	END
+------------------------------------
+Reading input data for simulation 1.
+------------------------------------
+
+	DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\phreeqc.dat
+	SOLUTION 1-4  Well S23                              # define aquifer...
+	 Na 86.5
+	 Mg 18.2
+	 Ca 11.2
+	 Cl 160.0
+	EXCHANGE_SPECIES
+	 Mg+2 + 2X- = MgX2
+	 log_k 0.54
+	 gamma 5.5 0.2
+	 Ca+2 + 2X- = CaX2
+	 log_k 0.78
+	 gamma 5.0 0.165
+	EXCHANGE 1-4
+	 X 0.7500
+	 equilibrate 1
+	PRINT
+	 reset  false
+WARNING: Dispersivities were read for 1 cells. Last value is used till cell 4.
+-------------------------------
+End of Run after 2.722 Seconds.
+-------------------------------
+

@@ -1,0 +1,26 @@
+public class egenOppgave {
+	
+	
+	public static void main(String[] args) {
+		int antGanger = 1;
+		int tall2 = 1;
+		int tall3 = 1;
+		int tall4 = 1;
+		
+		if (antGanger >= 100){
+			antGanger ++;
+			regnNeste();
+		}
+		
+		else {
+			System.out.println("Og det var det.");
+		}
+		
+
+	}
+	
+	static void regnNeste(tall2, tall3, tall4){
+		tall4 = tall3;
+		tall3 = tall3 + tall2
+	}
+}

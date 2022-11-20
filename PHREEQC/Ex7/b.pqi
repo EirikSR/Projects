@@ -1,0 +1,40 @@
+DATABASE C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+
+SOLUTION 1-80 Initial solution in column
+  Na 1.0; 
+  N(5) 1.0 
+EXCHANGE 1-80
+  X 1.1e-3;
+  -equilibrate 1
+END
+SOLUTION 0 Displacing solution, CaCl2
+  Ca 0.6
+  Cl 1.2
+END
+PRINT 
+-reset false # suspend output
+
+TRANSPORT
+  -cells                          16
+  -length                         0.005            # cell length 0.005 m, column length 16*0.005 = 0.08 m
+  -dispersivity                   0.002            # m
+  -shifts                         40               # 40/16 = 2.5 pore volumes
+  -flow_direction forward
+  -time_step                      630              # 1 shift = 630 s. total time = 40*630 s
+  -boundary_conditions flux flux                   # at column ends
+  -diffusion_coefficient          0.3e-9           # m2/s
+  -punch 16                                        # only punch/graph cell 16
+
+USER_GRAPH
+   -heading PV NO3 Cl Na Ca 
+    -chart_title "Concentration vs. pore volume"
+   -axis_titles Pore_Volumes mol/L
+   -axis_scale x_axis 0 2.5
+   -axis_scale y_axis 0 1.5e-3
+   -plot_concentration_vs time
+   -start
+	10 graph_x (step_no + 0.5)/16                # transfer cell centered conc to column end
+	20 graph_y tot("N"), tot("Cl"), tot("Na"), tot("Ca")
+    -end
+END

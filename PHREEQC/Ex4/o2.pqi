@@ -1,0 +1,51 @@
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+SOLUTION 0
+    temp      25
+    pH        7.86
+    units     mol/kgw
+    density   1
+    Na        0.59
+    Mg        0.39
+    K         0.05
+    Cl        0.51       charge
+    Ca        2.62
+    -water    1 # kg
+EQUILIBRIUM_PHASES 0
+    CO2(g)    -2       #PCO2 = 0.01 atm
+    Calcite    0
+END 
+
+Solution 1-100
+    temp      25
+    pH        7
+    units     mol/kgw
+    density   1
+    Na        0.485
+    Mg        0.0551
+    K         0.01
+    Cl        0.556       charge
+    Ca        0.01
+    -water    1 # kg
+
+EXCHANGE 1-100	          #Define Aquifer exchanger
+	X	50e-3       # 10*(2/0.3)= 66.7 meq/L
+	-equilibrate 1
+
+TRANSPORT                  #Define Transport parameters
+    -cells                 100
+    -lengths               0.5     #Total Length = 100 *0.5 = 50 meters
+    -time_step             1000
+    -shifts                1000
+    -dispersivities        1
+    -punch                 10
+
+USER_GRAPH
+	-headings PV Pv/10 Na Mg K Cl Ca HCO3
+	-plot_concentration_vs time
+	-axis_titles "Pore volumes"  "mmol/L"
+	-axis_scale x_axis 0  20  10
+	-axis_scale y_axis  0  5   10
+	10 graph_x (step_no + 0.5) / cell_no			 #plots pore volumes
+	20 graph_y (step_no + 0.5) / (cell_no*10),tot('Na')*1e3, tot('Mg')*1e3, tot('K')*1e3 tot('Cl')*1e3, tot('Ca')*1e3, MOL('HCO3-')*1e3
+END

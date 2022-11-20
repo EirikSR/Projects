@@ -1,0 +1,37 @@
+DATABASE C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+
+
+
+SOLUTION 1-16	#Column is filled with 1 mmol of NaNO3
+	Na	1
+	N(5)	1
+EXCHANGE 1-16	#Column is filled with sand CEC = 1.1 meq/L
+	X	1.1e-3
+	-equilibrate 1
+END
+
+SOLUTION 0		#Solution with 0.6 mmol CaCl2
+	Ca	0.6
+	Cl	1.2
+
+
+TRANSPORT
+	-cells			16
+	-length			0.005		    # column length = 10*8e-3 meters
+	-shifts			40
+	-time_step		      630 	    # time_step = 3.15e7 (around 100 years)
+	-flow_direction 		forward
+	-boundary_conditions 	flux flux # diffusion transport
+	-diffusion_coefficient 	0.3e-9
+
+
+USER_GRAPH
+	-headings PV Na Cl Ca
+	-plot_concentration_vs distance
+	-axis_titles "distance" "mmol/L"
+	10 graph_x dist                                        	
+	20 graph_y tot("Na")*1e3, tot("Cl")*1e3, tot("Ca")*1e3
+END
+
+

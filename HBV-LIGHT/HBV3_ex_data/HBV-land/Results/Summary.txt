@@ -1,0 +1,15 @@
+HBV-land	SubCatchment_1
+ Water Balance [mm/year]:
+ Sum Qsim	439.726908495025
+ Sum Qobs	262.084830259289
+ Sum Precipitation	732.378739316238
+ Sum AET	287.361658073617
+ Sum PET	535.196719262875
+ Contribution of QSTZ	0.0467443721164412
+ Contribution of QSUZ	0.446464258370474
+ Contribution of QSLZ	0.506791369513086
+ Goodness of fit:
+ Coefficient of determination	0.240985562591046
+ Model efficiency	-1.41614538203019
+ Efficiency for log(Q)	-0.248847412324815
+ Mean difference	-177.81479112503

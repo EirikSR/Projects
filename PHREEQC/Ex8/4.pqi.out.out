@@ -1,0 +1,81 @@
+   Input file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\bin\4.pqi.out
+  Output file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\bin\4.pqi.out.out
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+------------------
+Reading data base.
+------------------
+
+	SOLUTION_MASTER_SPECIES
+	SOLUTION_SPECIES
+	PHASES
+	EXCHANGE_MASTER_SPECIES
+	EXCHANGE_SPECIES
+	SURFACE_MASTER_SPECIES
+	SURFACE_SPECIES
+	RATES
+	END
+------------------------------------
+Reading input data for simulation 1.
+------------------------------------
+
+	WARNING: Database file from DATABASE keyword is used
+WARNING: Unknown input, no keyword has been specified.
+	 command line argument ignored.
+WARNING: Unknown input, no keyword has been specified.
+	   Input file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\bin\4.pqi
+WARNING: Unknown input, no keyword has been specified.
+	  Output file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\bin\4.pqi.out
+WARNING: Unknown input, no keyword has been specified.
+	Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+	------------------
+WARNING: Unknown input, no keyword has been specified.
+	Reading data base.
+WARNING: 	Reading data base.
+
+	------------------
+WARNING: 	------------------
+
+		SOLUTION_MASTER_SPECIES
+		SOLUTION_SPECIES
+		PHASES
+		EXCHANGE_MASTER_SPECIES
+		EXCHANGE_SPECIES
+		SURFACE_MASTER_SPECIES
+		SURFACE_SPECIES
+		RATES
+		END
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 2.
+------------------------------------
+
+	------------------------------------
+WARNING: Unknown input, no keyword has been specified.
+	Reading input data for simulation 1.
+WARNING: Unknown input, no keyword has been specified.
+	------------------------------------
+WARNING: Unknown input, no keyword has been specified.
+		DATABASE C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+ERROR: DATABASE must be the first keyword in the input file.
+		SOLUTION_MASTER_SPECIES
+			Pce	Pce	0	Pce	165.8
+		SOLUTION_SPECIES
+			Pce = Pce
+				log_k 0
+		RATES
+		 S_degradation
+		 start
+		  1 k_max = parm(1)
+		   2 k_half = parm(2)          # parms defined in KINETICS
+		 10 S = tot("Pce")
+		 20 if S < 1e-9 then goto 50                       # quit at low conc.
+		 30 rate = - k_max * S /(k_half + S)
+		 40 dS = rate * time
+		 50 save dS
+		 end
+ERROR: Calculations terminating due to input errors.
+Stopping.

@@ -1,0 +1,46 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\phreeqc.dat
+#:::::  lec6_Excercise::::::: 
+#:::::  Excercise
+
+
+
+SOLUTION 0
+EQUILIBRIUM_PHASES 0
+    CO2(g)    -2       #PCO2 = 0.01 atm
+    Calcite    0
+
+
+SOLUTION 1-10
+    temp      25
+    pH        8.3
+    pe        4
+    redox     pe
+    units     mol/kgw
+    density   1
+    Na        0.485
+    Mg        0.055
+    Ca        0.011
+    Cl        1        charge
+    -water    1 # kg
+
+EXCHANGE 1-10	           #Define Aquifer exchanger
+	X	66.6666e-3       # 10*(2/0.3)= 66.7 meq/L
+	-equilibrate 1
+
+TRANSPORT                             #Define Transport parameters
+    -cells                 10
+    -lengths               0.2       #Total Length = 10 *0.2 = 2 meters
+    -shifts                250
+    -dispersivities        0
+    -punch                 10
+
+
+USER_GRAPH
+	-headings PV Na Mg Ca HCO3
+	-plot_concentration_vs time
+	-axis_titles "Pore volumes"  "mmol/L"
+	-axis_scale x_axis 0  25  1
+	-axis_scale y_axis  0  4   0.2
+	10 graph_x (step_no + 0.5) / cell_no			 #plots pore volumes
+	20 graph_y tot('Na')*1e3, tot('Mg')*1e3, tot('Ca')*1e3, MOL('HCO3-')*1e3
+END

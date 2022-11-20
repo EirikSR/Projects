@@ -1,0 +1,72 @@
+
+public class Bondegard {
+
+	
+	public static void main(String[] args) {
+		Gris[] grisebinge = new Gris[10];
+		Hest[] stall = new Hest[5];
+		Ku[] fjos = new Ku[30];
+		String type = null;
+		int antall = 0;
+		
+		
+		
+		settInnGris(grisebinge, 5);
+		settInnHest(stall, 2);
+		settInnKu(fjos, 8);
+		
+		
+		
+		type = "gris";
+		antall = 3;
+		selgDyr(type, antall, grisebinge, stall, fjos);
+		
+		type = "hest";
+		antall = 1;
+		selgDyr(type, antall, grisebinge, stall, fjos);
+		
+		type = "ku";
+		antall = 5;
+		//selgDyr(type, antall, grisebinge, stall, fjos);
+	}
+	
+	static void settInnGris(Gris[] grisebinge, int antall) {
+		
+		for(int i = 0; antall != 0; i++){
+			if(grisebinge[i] == null){
+				grisebinge[i] = new Gris();
+				antall--;
+			}
+		}
+		
+	}
+	
+	static void settInnHest(Hest[] stall, int antall){
+		for(int i = 0; antall != 0; i++){
+			if(stall[i] == null){
+				stall[i] = new Hest();
+				antall--;
+			}
+			
+		}		
+	}
+	
+	static void settInnKu(Ku[] fjos, int antall){
+		for(int i = 0; antall != 0; i++){
+			if(fjos[i] == null){
+				fjos[i] = new Ku();
+				System.out.println(fjos[i]);
+				antall--;
+			}
+		}
+	}
+	static void selgDyr(String type, int antall, Gris[] g, Hest[] h, Ku[] k){
+		
+		for(int i = g.length; antall != 0; i--){
+			if(g[i] != null){
+				g[i] = null;
+				antall--;
+			}
+		}
+	}
+}

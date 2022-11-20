@@ -1,0 +1,21 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\phreeqc.dat
+#:::::  lec7_Example_2  ::::::: 
+#:::::  Sorption of Ca with diffuse layer
+
+
+
+Surface 1
+	Hfo_w	0.2	600	2
+	Hfo_s		0.005
+     -diffuse_layer
+
+Solution 1
+	units  mmol/L
+	pH	7.86 charge
+	Na	0.59
+	K	0.05
+	Mg	0.39
+	Ca	2.62
+	Cl	0.51
+	C(4)	2.75	as HCO3
+	S(6)	1.86

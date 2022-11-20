@@ -1,0 +1,38 @@
+DATABASE C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+
+SOLUTION_MASTER_SPECIES                            # define quinoline...
+ Quin Quin 0 129 129
+SOLUTION_SPECIES
+ Quin = Quin; -log_k 0
+ Quin + H+ = QuinH+; -log_k 4.94
+
+SURFACE_MASTER_SPECIES                             # define absorption into OC..
+ Org_c Org_c
+SURFACE_SPECIES
+ Org_c = Org_c; -log_k 0
+ Org_c + Quin = Org_cQuin; -log_k -98.0            # divide K_oc = 100 by 10**100
+
+EXCHANGE_SPECIES
+ X- + QuinH+ = XQuinH; -log_k 0                    # equal to K_NaX
+END
+
+SOLUTION 1; pH 4.2; Ca 10; Cl 20; Quin 1e-3        # the experimental solutions
+SOLUTION 2; pH 7.5; Ca 10; Cl 20; Quin 1e-3
+END
+
+USER_PRINT
+ -start
+ 10 K_d_OC = mol("Org_cQuin") / tot("Quin")
+ 20 K_d_X =  mol("XQuinH") / tot("Quin")
+ 30 print "pH =",-la("H+"), ". K_d(OC) =",K_d_OC, ". K_d(X) =",K_d_X,\
+          ". K_d_tot (L/kg) =", K_d_OC + K_d_X 
+ -end
+USE solution 1
+SURFACE 1; Org_c 0.0024e100 1 1; -equil 1          # sites of Org_c times 10**100
+EXCHANGE 1; X 0.084; -equil 1
+END
+USE solution 2
+SURFACE 2; Org_c 0.0024e100 1 1; -equil 2
+EXCHANGE 2; X 0.084; -equil 2
+END

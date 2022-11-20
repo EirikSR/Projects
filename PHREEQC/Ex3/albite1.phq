@@ -1,0 +1,47 @@
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+SOLUTION 1
+EQUILIBRIUM_PHASES 1
+	CO2(g)	-3.5
+RATES 1
+Albite
+	-start
+	1 ka = parm(1)		#Rate constant for acid mechanism (mol/m^2/s)
+	2 n = parm(2)		#Reaction order n with respect to H+	
+	3 kn = parm(3)		#Rate constant for acid mechanism (mol/m^2/s)
+	10 rate = ((ka*(ACT("H+")^n)) + kn)*(1 -  SR("Albite"))	#Overall rate
+	20 moles = rate*time
+	30 save moles
+	-end
+KINETICS 1
+Albite
+	-formula NaAlSi3O8
+	-m0  1e-3             			#Initial amount 1 mmol     	
+	-parms 6.9e-11 0.457 2.8e-13			#Values for ka, n and kn
+	-time_step 25 years in 100          #60 years in 100 time steps
+INCREMENTAL_REACTIONS true
+
+USER_PUNCH 				#Write the simulation time in years to the selected output file
+	-headings time_yr
+	10 PUNCH total_time/3.1536e7 
+	
+SELECTED_OUTPUT 
+	-file Aex1.xls
+	-reset false
+	-time true
+	-kinetic_reactants Albite
+	-saturation_indices Albite
+	-step true
+	-ph true
+
+
+USER_GRAPH 2
+	-chart_title "Albite saturation with CO2, T=25, no equilibrium gas"
+	-axis_titles "Years" "SR" "Albite remaining (mmol)"
+	-headings time SR Albite_remaining
+	-initial_solutions  false
+	-start
+	10 graph_x total_time/3.1536e7 				#Graph the time in years on x-axis
+	20 graph_y SR("Albite")				#Graph the saturation ratio of k-feldspar
+	30 graph_sy KIN("Albite")*1e3			#Graph the remaining kinetic reactant
+	-end
+END

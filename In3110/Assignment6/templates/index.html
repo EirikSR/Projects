@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    /* Styles not written by me, obtained from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown */
+
+    .error {
+      color: red;
+    }
+
+    .dropbtn {
+      background-color: #065488;
+      color: rgb(253, 226, 226);
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropbtn:hover,
+    .dropbtn:focus {
+      background-color: #2980B9;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown a:hover {
+      background-color: #ddd;
+    }
+
+    .show {
+      display: block;
+    }
+  </style>
+  <!--  Scripts obtained from the wed, vega needed to display the Json files-->
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+
+<body>
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="/Norway">All Counties</a>
+      <a href="/Agder">Agder</a>
+      <a href="/Innlandet">Innlandet</a>
+      <a href="/More og Romsdal">More og Romsdal</a>
+      <a href="/Oslo">Oslo</a>
+      <a href="/Rogaland">Rogaland</a>
+      <a href="/Troms og Finnmark">Troms og Finnmark</a>
+      <a href="/Vestfold og Telemark">Vestfold og Telemark</a>
+      <a href="/Vestland">Vestland</a>
+      <a href="/Viken">Viken</a>
+      <a href="/Norway_map">Interactive Map</a>
+    </div>
+  </div>
+
+  </div>
+  <br>
+  <div id="vis"></div>
+  <br>
+  <a href="/help">Help Page</a>
+  <script>
+    (async function (vegaEmbed) {
+
+      //Getting when plot.json is ran
+      var response = await fetch("plot.json");
+      var spec = await response.json();
+
+      var embedOpt = { "mode": "vega-lite" };
+
+      //Displaying Json to <div id=vis>
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+    //Copied from W3schools.com
+
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+
+  // Dropdown menu obtained from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown
+  </script>
+</body>
+
+</html>

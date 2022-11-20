@@ -1,0 +1,3653 @@
+
+
+
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	
+SOLUTION 1; pH   1.2500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           12; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.1500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           11; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   1.0500e+01; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH           10; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   9.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            9; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   8.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            8; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   7.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            7; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   6.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            6; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   5.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            5; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH   4.5000e+00; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	SOLUTION 1; pH            4; Na 100; N(5) 100 charge
+	SURFACE 1; Hfo_w 0.2e-3 600 88e-3; Hfo_s 0.5e-5;  -equil 1
+	REACTION 1;ZnNO3 1;1e-6
+	        END
+	

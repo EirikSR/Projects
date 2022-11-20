@@ -1,0 +1,45 @@
+
+public class Bondegard {
+
+	
+	public static void main(String[] args) {
+		Gris[] grisebinge = new Gris[10];
+		Hest[] stall = new Hest[5];
+		Ku[] fjos = new Ku[30];
+		settInnGris(grisebinge);
+		settInnHest(stall);
+		settInnKu(fjos);
+	}
+	
+	static void settInnGris(Gris[] grisebinge) {
+		
+		for(int i = 0; i < grisebinge.length; i++){
+			if(grisebinge[i] == null){
+				grisebinge[i] = new Gris();
+				i = grisebinge.length;
+			}
+		}
+		
+		System.out.println(grisebinge[0]);
+	}
+	
+	static void settInnHest(Hest[] stall){
+		for(int i = 0; i < stall.length; i++){
+			if(stall[i] == null){
+				stall[i] = new Gris();
+				i = stall.length;
+			}
+		}		
+	}
+	
+	static void settInnKu(Ku[] fjos){
+		for(int i = 0; i < fjos.length; i++){
+			if(fjos[i] == null){
+				fjos[i] = new Ku();
+				i = fjos.length;
+			}
+		}
+	}
+
+
+}

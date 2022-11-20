@@ -1,0 +1,149 @@
+WARNING: Database file from DATABASE keyword is used; command line argument ignored.
+   Input file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\bin\o.pqi
+  Output file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\bin\o.pqi.out
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+------------------
+Reading data base.
+------------------
+
+	SOLUTION_MASTER_SPECIES
+	SOLUTION_SPECIES
+	PHASES
+	EXCHANGE_MASTER_SPECIES
+	EXCHANGE_SPECIES
+	SURFACE_MASTER_SPECIES
+	SURFACE_SPECIES
+	RATES
+	END
+------------------------------------
+Reading input data for simulation 1.
+------------------------------------
+
+	Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+	Solution 0
+	    pH 12
+		Cu 0.001
+	    K 0.100
+	    N(5) 0.100
+	    Cl 0.002 charge
+	Surface 1
+		Hfo_w	0.001	600	0.2
+		Hfo_s		0.01
+	REACTION 1
+		HNO3 0.050 
+	    1 in 50
+	USER_GRAPH 1
+		-headings Sulfur-consentration
+		-chart_title "Sulfur concentration vs. pH"
+		-axis_titles "Sulfur concentration in moles" "pH"
+		-axis_scale x_axis 0 0.3 0.01 0
+		-axis_scale y_axis 4 8 0.2
+		10 graph_y MOL("Cu")
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 0.	
+
+WARNING: Maximum iterations exceeded, 100
+
+WARNING: Maximum iterations exceeded, 100
+
+WARNING: The program has failed to converge to a numerical solution.
+
+The following equations were not satisfied:
+ERROR:                   Cl Charge balance has not converged. 	Residual: 1.085131e-02
+
+ERROR:                   Cu has not converged. Total: 1.000000e-06	Calculated: 9.981607e-07	Residual: 1.839317e-09
+
+ERROR:                    K has not converged. Total: 1.000000e-04	Calculated: 1.079607e-04	Residual: -7.960715e-06
+
+ERROR:                 N(5) has not converged. Total: 1.000000e-04	Calculated: 1.083722e-40	Residual: 1.000000e-04
+
+ERROR:                   Mu Ionic strength has not converged. 	Residual: -1.436243e-04
+
+ERROR:               A(H2O) Activity of water has not converged. 	Residual: 1.875414e-04
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                3.431e-17   3.431e-17  Charge balance
+	Cu                9.982e-07   9.982e-07
+	K                 1.080e-04   1.080e-04
+	N(5)              1.084e-40   1.084e-40
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =  12.000    
+                                       pe  =   4.000    
+      Specific Conductance (µS/cm,  25°C)  = 2134
+                          Density (g/cm³)  =   0.99728
+                               Volume (L)  =   1.00292
+                        Activity of water  =   1.000
+                 Ionic strength (mol/kgw)  =   5.390e-03
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   1.096e-02
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =  -1.085e-02
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -98.05
+                               Iterations  = 101 (202 overall)
+                                  Total H  = 1.110234e+02
+                                  Total O  = 5.551718e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             1.096e-02   1.012e-02    -1.960    -1.995    -0.035     -4.06
+   H+              1.073e-12   1.000e-12   -11.969   -12.000    -0.031      0.00
+   H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
+Cl            3.431e-17
+   Cl-             3.431e-17   3.170e-17   -16.465   -16.499    -0.034     18.11
+   CuCl+           4.081e-33   3.773e-33   -32.389   -32.423    -0.034      0.67
+   CuCl2-          0.000e+00   0.000e+00   -45.098   -45.132    -0.034     (0)  
+   CuCl2           0.000e+00   0.000e+00   -49.193   -49.192     0.001     31.02
+   CuCl3-2         0.000e+00   0.000e+00   -61.298   -61.431    -0.134     (0)  
+   CuCl3-          0.000e+00   0.000e+00   -68.107   -68.141    -0.034     (0)  
+   CuCl4-2         0.000e+00   0.000e+00   -86.807   -86.940    -0.134     (0)  
+Cu(1)         2.517e-18
+   Cu+             2.517e-18   2.321e-18   -17.599   -17.634    -0.035     (0)  
+   CuCl2-          0.000e+00   0.000e+00   -45.098   -45.132    -0.034     (0)  
+   CuCl3-2         0.000e+00   0.000e+00   -61.298   -61.431    -0.134     (0)  
+Cu(2)         9.982e-07
+   Cu(OH)2         9.227e-07   9.239e-07    -6.035    -6.034     0.001     (0)  
+   Cu(OH)3-        6.021e-08   5.567e-08    -7.220    -7.254    -0.034     (0)  
+   Cu(OH)4-2       1.520e-08   1.111e-08    -7.818    -7.954    -0.136     (0)  
+   CuOH+           4.784e-13   4.422e-13   -12.320   -12.354    -0.034     (0)  
+   Cu+2            5.977e-17   4.422e-17   -16.224   -16.354    -0.131    -26.48
+   Cu2(OH)2+2      1.171e-19   8.557e-20   -18.931   -19.068    -0.136     (0)  
+   CuCl+           4.081e-33   3.773e-33   -32.389   -32.423    -0.034      0.67
+   CuCl2           0.000e+00   0.000e+00   -49.193   -49.192     0.001     31.02
+   CuCl3-          0.000e+00   0.000e+00   -68.107   -68.141    -0.034     (0)  
+   CuCl4-2         0.000e+00   0.000e+00   -86.807   -86.940    -0.134     (0)  
+H(0)          1.414e-35
+   H2              7.071e-36   7.079e-36   -35.151   -35.150     0.001     28.61
+K             1.080e-04
+   K+              1.080e-04   9.973e-05    -3.967    -4.001    -0.034      9.05
+N(5)          1.084e-40
+   NO3-            1.084e-40   0.000e+00   -39.965   -40.000    -0.035     29.53
+O(0)          1.661e-22
+   O2              8.307e-23   8.318e-23   -22.081   -22.080     0.001     30.40
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  H2(g)           -32.05    -35.15   -3.10  H2
+  H2O(g)           -1.50     -0.00    1.50  H2O
+  O2(g)           -19.19    -22.08   -2.89  O2
+  Sylvite         -21.40    -20.50    0.90  KCl
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+ERROR: Model failed to converge for initial solution  0.
+Stopping.

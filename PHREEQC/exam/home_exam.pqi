@@ -1,0 +1,198 @@
+DATABASE DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\llnl.dat
+#Pore water solution, at 200 bar CO2 pressure
+
+SOLUTION 1
+ temp      70                                               # Temperature set to 70 deg. 
+ pH        7 charged                                        # pH will be determined by charge
+ pe        4                                                # default value 
+ units     mol/l                                            # concentration given in mol/liter
+ density   1                                                # default value
+ water     1                                                # kg
+
+GAS_PHASE 1	                                                # Setting preassure to 200bar (does not seem to affect model)
+ -fixed_pressure 
+ -pressure   200
+ -temperature 70
+
+
+SAVE Solution 1                                             # Saving and using solution
+END                           
+USE SOLUTION 1                
+
+PHASES 
+# Adding molecules not present in database used (llnl.dat)
+Clinochlore-14A
+ Mg5Al2Si3O10(OH)8 +16.0000 H+  =  + 2.0000 Al+++ + 3.0000 SiO2 + 5.0000 Mg++ + 12.0000 H2O
+ log_k           67.2391
+ delta_H	-612.379 kJ	# Calculated enthalpy of reaction	Clinochlore-14A
+
+RATES 1 
+Albite
+ -start
+ 1  s = parm(1)                                             # Surface area of Albite, set to 1
+ 2  ka = parm(2)                                            # Acid rate constant for Albite
+ 3  Ea = parm(3)                                            # Activation energy for acid mechanism 
+ 4  n = parm(4)                                             # Reaction order for Albite
+ 5  kn = parm(5)                                            # Neutral rate constant
+ 6  En = parm(6)                                            # Neutral Activation energy
+ 7  T = parm(7)                                             # Temperature, 70C = 343.15K
+ 10 IF(SI("Albite")>=0) then goto 50    
+ 15 T_exp = exp (-Ea / 8.314 * (1/T -1/298.15))
+ 20 k1 = s * ((10^ka) * T_exp * (ACT("H+")^n) * (1-SR("Albite")))  
+ 25 k2 = 10^(kn) * T_exp * (1-SR("Albite")) 
+ 30 rate = k1+k2
+ 40 moles = rate * time
+ 50 save moles          
+ -end
+Anorthite
+ -start
+ 1  s = parm(1)                                             # Surface area of Anorthite, set to 1
+ 2  ka = parm(2)                                            # Acid rate constant for Anorthite
+ 3  Ea = parm(3)                                            # Activation energy for acid mechanism 
+ 4  n = parm(4)                                             # Reaction order for Anorthite
+ 5  kn = parm(5)                                            # Neutral rate constant
+ 6  En = parm(6)                                            # Neutral Activation energy
+ 7  T = parm(7)                                             # Temperature, 70C = 343.15K
+ 10 IF(SI("Anorthite")>=0) then goto 50                     # If solution is (over)saturated, skip calculations    
+ 15 T_exp = exp (-Ea / 8.314 * (1/T -1/298.15))
+ 20 k1 = s * ((10^ka) * T_exp * (ACT("H+")^n) * (1-SR("Anorthite")))  
+ 25 k2 = 10^(kn) * T_exp * (1-SR("Anorthite")) 
+ 30 rate = k1+k2
+ 40 moles = rate * time
+ 50 save moles          
+ -end
+Clinochlore-14A
+ -start
+ 1  s = parm(1)                                             # Surface area of Clinochlore, set to 1
+ 2  ka = parm(2)                                            # Acid rate constant for Clinochlore
+ 3  Ea = parm(3)                                            # Activation energy for acid mechanism 
+ 4  n = parm(4)                                             # Reaction order for Clinochlore
+ 5  kn = parm(5)                                            # Neutral rate constant
+ 6  En = parm(6)                                            # Neutral Activation energy
+ 7  T = parm(7)                                             # Temperature, 70C = 343.15K
+ 10 IF(SI("Clinochlore-14A")>=0) then goto 50               # If solution is (over)saturated, skip calculations
+ 15 T_exp = exp (-Ea / 8.314 * (1/T -1/298.15))             # Calculating second term of rate constant (equation **)
+ 20 k1 = s * ((10^ka) * T_exp * (ACT("H+")^n) \
+           * (1-SR("Clinochlore-14A")))                     # Rate from acid rate constant ***
+ 25 k2 = 10^(kn) * T_exp * (1-SR("Clinochlore-14A"))        # Rate from neutral rate constant
+ 30 rate = k1+k2
+ 40 moles = rate * time
+ 50 save moles          
+ -end
+Pyrite
+ -start
+ 1  s = parm(1)                                             # Surface area of Pyrite, set to 1
+ 2  ka = parm(2)                                            # Acid rate constant for Pyrite
+ 3  Ea = parm(3)                                            # Activation energy for acid mechanism 
+ 4  n = parm(4)                                             # Reaction order for Pyrite
+ 5  kn = parm(5)                                            # Neutral rate constant
+ 6  En = parm(6)                                            # Neutral Activation energy
+ 7  T = parm(7)                                             # Temperature, 70C = 343.15K
+ 10 IF(SI("Pyrite")>=0) then goto 50                        # If solution is (over)saturated, skip calculations
+ 15 T_exp = exp (-Ea / 8.314 * (1/T -1/298.15))
+ 20 k1 = s * ((10^ka) * T_exp * (ACT("H+")^n) * (1-SR("Pyrite")))  
+ 25 k2 = 10^(kn) * T_exp * (1-SR("Pyrite")) 
+ 30 rate = k1+k2
+ 40 moles = rate * time
+ 50 save moles            
+ -end
+
+KINETICS 1
+ Albite                                                     # Kinetic parameters for Albite  
+    -formula  NaAlSi3O8  1                                  # Chemical formula
+    -m0       7.969                                         # Moles of Albite at t=0
+    -parms    1 -10.16 65000 0.457 -12.56 69800 343.15      # Parameters from Palandri and Kharaka 2004
+    # -parms (Surface area, Acid rate constant, Activation energy(acid), reaction order, neutral rate constant, Activation energy (neutral), temperature)
+Anorthite                                                   # Kinetic parameters for Anorthite 
+    -formula CaAl2Si2O8                                     # Chemical formula
+    -m0 7.8728                                              # Moles of Anorthite at t=0
+    -parms 1 -3.50 16600 1.411 -9.12 17800 343.15           # Parameters from Palandri and Kharaka 2004
+
+Clinochlore-14A                                             # Kinetic parameters for Clinochlore  
+    -formula Mg5Al2Si3O10(OH)8                              # Chemical formula
+    -m0 1.2466                                              # Moles of Clinochlore at t=0
+    -parms 1 -11.11 80500 0.256 -13.16 93400 343.15         # Parameters from Palandri and Kharaka 2004
+
+Pyrite                                                      # Kinetic parameters for Anorthite
+    -formula FeS2                                           # Chemical formula
+    -m0 8.0847                                              # Moles of Clinochlore at t=0
+    -parms 1 -7.52 56900 -0.5 -3.55 56900 343.15            # Parameters from Palandri and Kharaka 2004
+    -time_step 10000 year in 1000                           # Time step for model. (1, 10, 100, 1000, 10000) years in 1000 steps
+    -step_divide 1
+    -runge_kutta 3
+    -bad_step_max 100000                                    # High bad_step_max ne
+INCREMENTAL_REACTIONS true
+USER_PUNCH 
+ -headings time_yr
+ 10 PUNCH total_time/3.1536e7                               # Changes time count from seconds to years in the plots
+
+# Printing data to xls file, used for reading plotted data.
+SELECTED_OUTPUT
+        -file   exercise10.xls
+        -si     Pyrite Albite
+USER_PUNCH		#Writes Cu data (mol) to exercise5.xls
+	-headings albite albite anort clino pyr
+	20 PUNCH KIN("Albite"), KIN("Anorthite"), \
+             KIN("Clinochlore-14A"), KIN("Pyrite"), EQUI("CO2(g)") 
+    30 PUNCH SI("Pyrite") SI("Albite") SI("Na")
+
+
+EQUILIBRIUM_PHASES 2
+ # Declearing the secondary mineral phases (and CO2), these minerals will precipitate out of solution.
+    Chalcedony		0		0
+    Magnesite		0		0.000
+    Kaolinite		0		0  
+    Calcite			0		0
+    Siderite	    0		0.0
+    Dawsonite		0		0.0
+    Dolomite		0		0.0
+    CO2(g)          2.301  100                              # 200 bar preassure (log(200) = 2.301), and 100 units (makes CO2 rdundant)
+
+USER_GRAPH 1                                                # Precipitation of secondary mineral phases
+ -headings 1 "Chalcedony" "Magnesite" "Calcite" \
+             "Kaolinite" "Dolomite" "Siderite" \
+             "Dawsonite                                     # Creating ledger
+ -chart_title "Secondary Minerals Precipitated after 1 year"# Adding plot title
+ -axis_titles "Time (years)" "Amount precipitated (mol)"    # Setting axis titles
+ -initial_solutions  false                                  # Sets start point to (0,0)
+ -start
+ 10 graph_x Total_time/3.1536e7                             # Sets x-axis to show time in years (3.1536e7 = seconds in a year)
+ 20 graph_y EQUI("Chalcedony"),EQUI("Magnesite"),\
+            EQUI("Calcite"),EQUI("Kaolinite"),\
+            EQUI("Dolomite"),EQUI("Siderite"),\
+            EQUI("Dawsonite")               # Precipitated secondary phases in moles 
+ -end
+
+USER_GRAPH 2
+                                                            # Plotting CO2 preassure
+ -headings 1 "CO2"                                          # Creating ledger
+ -chart_title "Unreacted CO2 over a 10000 year period"      # Adding plot title
+ -axis_titles "Time (years)"  \
+    "CO2 partial preassure (bar)"                           # Setting axis titles
+ -initial_solutions  false                                  # Sets start point to (0,0)
+ -start
+ 10 graph_x Total_time/3.1536e7                             # Sets x-axis to show time in years (3.1536e7 = seconds in a year)
+ 20 graph_y EQUI("CO2(g)")                                  # Plotting 10^log(CO2 preassure) to get plot in bar
+ -end
+
+USER_GRAPH 3
+                                                            # Primary mineral phases remaining after X years
+ -headings 1 "Albite" "Anorthite" "Clinochlore" "Pyrite"    # Creating ledger
+ -chart_title "Primary minerals remaining after 10000 years"# Adding plot title
+ -axis_titles "Time (years)"  "Concentration (mol/L)"       # Setting axis titles
+ -initial_solutions  false                                  # Sets start point to (0,0)
+ -start
+ 10 graph_x Total_time/3.1536e7                             # Sets x-axis to show time in years (3.1536e7 = seconds in a year)
+ 20 graph_y  KIN("Albite"), KIN("Anorthite"), \
+    KIN("Clinochlore-14A"), KIN("Pyrite")                   # Remaining (kinetic) primary mineral phases in moles
+ -end
+USER_GRAPH 4
+                                                            # Showing how much of the primary minerals have reacted over time
+ -headings 1 "Albite" "Anorthite" "Clinochlore" "Pyrite"    # Naming the graphs in the plot
+ -chart_title "Moles of primary minerals reacted (for each time step)"# Title of the plot
+ -axis_titles "Time (years)"  "Concentration (mol/L)"       # Namin the axis of the plot
+ -initial_solutions  false                                  # Sets start point to (0,0)
+ -start
+ 10 graph_x Total_time/3.1536e7                             # Total time in years on the x-axis instead of seconds
+ 20 graph_y -KIN_DELTA("Albite"),-KIN_DELTA("Anorthite"),-KIN_DELTA("Clinochlore-14A"),-KIN_DELTA("Pyrite")      # Moles of a kinetic reactant that reacted during the time step. 
+ -end

@@ -1,0 +1,5 @@
+Class Feilmeldinger{
+public static void main(String[] args) {
+system.out.println("Velkommen til feilmeldinger!")
+}
+}

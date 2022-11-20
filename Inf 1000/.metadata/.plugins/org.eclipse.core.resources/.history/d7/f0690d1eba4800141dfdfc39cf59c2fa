@@ -1,0 +1,23 @@
+
+public class Bondegard {
+
+	
+	public static void main(String[] args) {
+		Gris[] grisebinge = new Gris[10];
+		Hest[] stall = new Hest[5];
+		Ku[] fjos = new Ku[30];
+		settInnGris(grisebinge);
+	}
+	
+	static void settInnGris(Gris[] grisebinge) {
+		System.out.println("hei");
+	}
+	static void settInnHest(Hest h){
+		
+	}
+	static void settInnKu(Ku k){
+		
+	}
+
+
+}

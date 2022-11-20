@@ -1,0 +1,41 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\phreeqc.dat
+#:::::  lec6_example_2::::::: 
+#:::::  Volocchi
+
+
+
+SOLUTION 1-4  Well S23                              # define aquifer...
+ Na 86.5; Mg 18.2; Ca 11.2
+ Cl 160.0
+EXCHANGE_SPECIES
+ Mg+2 + 2X- = MgX2; -log_k 0.54; -gamma 5.5 0.2
+ Ca+2 + 2X- = CaX2; -log_k 0.78; -gamma 5.0 0.165
+EXCHANGE 1-4
+ X 0.7500; -equilibrate 1
+PRINT; -reset  false; -status false                 # ... note to reduce printout
+END
+
+SOLUTION 0                                          # define injected solution and xpt...
+ Na 9.4; Mg 0.5; Ca 2.13
+ Cl 14.66
+END
+
+TRANSPORT
+ -cells     4
+ -shifts  400
+ -length 9.24  3.83  2.93  2.48
+ -dispersivity 1.0
+ -punch     3
+USER_GRAPH
+ -headings Injected Na Cl Mg Ca
+ -chart_title "With dispersivity"
+ -axis_scale x_axis 100 100000 auto auto true       # use logarithmic axes
+ -axis_scale y_axis 0.1 160 auto auto true
+ -plot_concentration_vs time
+ -axis_titles "m^3 injected" "mmol/L"
+ -start
+ 10 V0 = 295                                        # m3 from injection well to S23
+ 20 graph_x V0 * (step_no + 0.5)/cell_no
+ 30 graph_y 1e3 * tot("Na"), 1e3 * tot("Cl"), 1e3 * tot("Mg"), 1e3 * tot("Ca")
+ -end
+END

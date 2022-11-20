@@ -1,0 +1,30 @@
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+SOLUTION 1  PURE WATER
+        pH      7.0
+        temp    25.0
+EQUILIBRIUM_PHASES 1
+        pyrite          0.0	0.3
+        calcite         0.0	0.3
+        gypsum          0.0     0.0
+REACTION 
+        O2      1.0
+        1 on 30
+SELECTED_OUTPUT
+        -file   exercise2.xls
+        -si     pyrite	calcite
+        -equilibrium_phases  pyrite calcite
+
+USER_GRAPH 1
+	-headings Sulfur-consentration
+	-chart_title "Sulfur concentration vs. pH"
+	-axis_titles "Sulfur concentration in moles" "pH"
+	-axis_scale x_axis 0 0.3 0.01 0
+	-axis_scale y_axis 4 8 0.2
+	-plot_concentration_vs x 
+	-initial_solutions false
+	10 PLOT_XY TOTMOL("S"), -LA("H+"), color = Green, \
+		symbol = Diamond, symbol_size = 7, y-axis = 2, \
+		line_width = 1
+
+END

@@ -1,0 +1,46 @@
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+#1
+Solution 1	#solution 1, 1mmol/kgw
+	units mmol/L
+	Na	1
+	
+
+USER_PRINT	#prints ppm for Na+ to the phreeqc output file 
+	10 REM convert mol to ppm
+	20 PRINT "Sodium" MOL("Na+")*22.989*1000
+
+
+
+#2	
+Solution 2	#solution 2, 2mmol/kgw
+	units mmol/L
+	Na	2
+
+USER_PRINT	#prints ppm for Na+ to the phreeqc output file
+	10 REM convert mol to ppm
+	20 PRINT "Sodium" MOL("Na+")*22.989*1000
+
+
+
+#3
+Solution 3	#solution 3, 3mmol/kgw
+	units mmol/L
+	Na	3
+	
+USER_PRINT	#prints ppm for Na+ to the phreeqc output file
+	10 REM convert mol to ppm
+	20 PRINT "Sodium" MOL("Na+")*22.989*1000
+
+
+
+#4	
+Solution 4	#solution 4, 4mmol/kgw
+	units mmol/L
+	Na	4
+
+USER_PRINT	#prints ppm for Na+ to the phreeqc output file
+	10 REM convert mol to ppm
+	20 PRINT "Sodium" MOL("Na+")*22.989*1000
+
+END

@@ -1,0 +1,16 @@
+C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+SOLUTION 1	#solution with pure water
+REACTION	#reaction adding zero water in five steps, to create step numbers for graphing
+H2O 0
+0 in 11
+USER_GRAPH	#graphing Log10 of x
+	-chart_title "Log10 of x"
+	-axis_titles 'x' 'Log10(x)'
+	-axis_scale x_axis 0 11 1
+	-axis_scale y_axis 0 1.5 0.2
+	-initial_solutions true
+	-connect_simulations false
+	30 graph_x step_no
+	40 graph_y LOG10(step_no)
+END

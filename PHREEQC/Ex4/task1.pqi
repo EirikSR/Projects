@@ -1,0 +1,23 @@
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+SOLUTION 0
+EQUILIBRIUM_PHASES 0-10
+    CO2(g)    -2       #PCO2 = 0.01 atm
+    Calcite    0
+
+Solution 1-10
+    temp      25
+    pH        7.86
+    units     mol/kgw
+    density   1
+    Na        0.59
+    Mg        0.39
+    K         0.05
+    Cl        0.51       charge
+    Ca        2.62
+    -water    1 # kg
+
+EXCHANGE 1-10	           #Define Aquifer exchanger
+	X	500       # 10*(2/0.3)= 66.7 meq/L
+	-equilibrate 1
+END

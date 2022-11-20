@@ -1,0 +1,9 @@
+a)
+En teknikk som forhindrer tilgang til tilstanden slik at man har større kontroll på dataene.
+Lagre variabler inne i klasser.
+
+b)
+Summen av operasjonene innenfor en klasse, dette er en arbeidsmal for objektene. Man oppretter objekter(instanser) etter denne malen.
+
+c)
+De endrer tilstanden i hvert enkelt objekt i motsetning til static

@@ -1,0 +1,39 @@
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+
+Solution 0
+ units  mmol/L
+  Na 1.0 
+  N(5) 1.0 
+
+EXCHANGE 1-50
+  X 1.1e-1;
+  -equilibrate 0
+
+REACTION 1
+	Ca 0.6
+  Cl 1.2 
+  1 in 1400 steps
+
+
+SELECTED_OUTPUT
+        -file   exercise7.xls
+        -pH
+USER_PUNCH		#Writes Cu data (mol) to exercise7.xls
+	-headings Ca
+	20 PUNCH (tot("Ca"))
+    30 PUNCH (tot("Na")) 
+
+
+USER_GRAPH
+   -heading PV Na Ca 
+   -chart_title "CaCl2 titrated into NaNO3 pore water"
+   -axis_titles Steps mol/L
+   -axis_scale x_axis 0 1400
+   -axis_scale y_axis 0 0.1
+   -plot_concentration_vs time
+   -start
+	10 graph_x step_no              # transfer cell centered conc to column end
+	20 graph_y tot("Na"), tot("Ca")
+    -end
+END

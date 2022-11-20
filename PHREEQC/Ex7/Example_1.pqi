@@ -1,0 +1,26 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.6.2-15100\database\phreeqc.dat
+#:::::  lec9_Example_1 ::::::: 
+
+
+SOLUTION 1
+   pH 9.0; 
+   pe 14 O2(g) -0.68
+   Ca 1; 
+   Cl 2; 
+   Cd 1e-6
+
+SURFACE 1
+					     # 2790 ppm Fe / 55.85 = 50 mmol/kg * 89 = 4.45 g "Ferrihydrite"/kg
+   Hfo_w 2e-3 600 4.45             # 2e-3 mmol weak sites, 600 m2/g specif. surf., 4.45 g ferrihydrite
+   Hfo_s 5e-5			     # 0.05 mmol strong sites
+-equil 1
+
+
+USER_GRAPH # plot q/c...
+	-head pH U Cd
+	-axis_titles "pH"  "Distribution coefficient"
+	-start
+	10 graph_x -la("H+")   
+	20 q_U = (mol("Hfo_wOCd+")+ mol("Hfo_sOCd+"))  # find sorbed amounts...
+	30 graph_y q_U / tot("Cd")                     # plot the distribution coefficients ...
+END

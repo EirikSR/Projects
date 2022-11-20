@@ -1,0 +1,40 @@
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+
+
+SURFACE 1
+
+ Hfo_w  0.001 600 0.2     # -amount of sorption1      -specific site density     -mass of solid
+ Hfo_s  0.01
+
+
+SOLUTION 0             # Input Solution
+    units   mol/kgw
+    pH 12
+	Cu 0.001
+    K 0.100
+    N(5) 0.100 charge #Charging NO3 due to errors of not converging
+    Cl 0.002
+
+REACTION
+	HNO3 0.050 
+    1 in 500
+
+SELECTED_OUTPUT
+        -file   exercise5.xls
+        -si     Cu
+USER_PUNCH		#Writes Cu data (mol) to exercise5.xls
+	-headings Cu(moles)
+	20 PUNCH TOTMOLE("Cu")
+	       
+
+USER_GRAPH
+
+     -headings  time Cu
+     -chart_title "Sorption of Copper"
+    -axis_titles "pH" \
+                 "Sorbed Cu"
+     -start
+      10 Graph_x   -LA("H+")
+	  20 Graph_y    0.001-TOTMOLE("Cu") #0.001- total moles in solution gives sorbed amount.
+-End

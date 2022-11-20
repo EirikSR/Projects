@@ -1,0 +1,522 @@
+WARNING: Database file from DATABASE keyword is used; command line argument ignored.
+   Input file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\bin\a.pqi
+  Output file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\bin\a.pqi.out
+Database file: C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+
+------------------
+Reading data base.
+------------------
+
+	SOLUTION_MASTER_SPECIES
+	SOLUTION_SPECIES
+	PHASES
+	EXCHANGE_MASTER_SPECIES
+	EXCHANGE_SPECIES
+	SURFACE_MASTER_SPECIES
+	SURFACE_SPECIES
+	RATES
+	END
+------------------------------------
+Reading input data for simulation 1.
+------------------------------------
+
+	DATABASE C:\Users\Eirik\Desktop\phreeqc-3.6.2-15100-x64\database\phreeqc.dat
+	SOLUTION_MASTER_SPECIES                            # define quinoline...
+	 Quin Quin 0 129 129
+	SOLUTION_SPECIES
+	 Quin = Quin
+	 log_k 0
+	 Quin + H+ = QuinH+
+	 log_k 4.94
+	SURFACE_MASTER_SPECIES                             # define absorption into OC..
+	 Org_c Org_c
+	SURFACE_SPECIES
+	 Org_c = Org_c
+	 log_k 0
+	 Org_c + Quin = Org_cQuin
+	 log_k -98.0            # divide K_oc = 100 by 10**100
+	EXCHANGE_SPECIES
+	 X- + QuinH+ = XQuinH
+	 log_k 0                    # equal to K_NaX
+	END
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 2.
+------------------------------------
+
+	SOLUTION 1
+	 pH 4.2
+	 Ca 10
+	 Cl 20
+	 Quin 1e-3        # the experimental solutions
+	SOLUTION 2
+	 pH 7.5
+	 Ca 10
+	 Cl 20
+	 Quin 1e-3
+	END
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 1.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Ca                1.000e-02   1.000e-02
+	Cl                2.000e-02   2.000e-02
+	Quin              1.000e-06   1.000e-06
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   4.200    
+                                       pe  =   4.000    
+      Specific Conductance (µS/cm,  25°C)  = 2317
+                          Density (g/cm³)  =   0.99796
+                               Volume (L)  =   1.00315
+                        Activity of water  =   0.999
+                 Ionic strength (mol/kgw)  =   3.004e-02
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =  -7.305e-05
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   7.305e-05
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.18
+                               Iterations  =   4
+                                  Total H  = 1.110125e+02
+                                  Total O  = 5.550622e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              7.218e-05   6.310e-05    -4.142    -4.200    -0.058      0.00
+   OH-             1.900e-10   1.603e-10    -9.721    -9.795    -0.074     -3.94
+   H2O             5.551e+01   9.995e-01     1.744    -0.000     0.000     18.07
+Ca            1.000e-02
+   Ca+2            1.000e-02   5.367e-03    -2.000    -2.270    -0.270    -17.74
+   CaOH+           1.661e-11   1.411e-11   -10.780   -10.850    -0.071     (0)  
+Cl            2.000e-02
+   Cl-             2.000e-02   1.692e-02    -1.699    -1.772    -0.073     18.21
+H(0)          5.598e-20
+   H2              2.799e-20   2.818e-20   -19.553   -19.550     0.003     28.61
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -53.283   -53.280     0.003     30.40
+Quin          1.000e-06
+   QuinH+          8.669e-07   7.366e-07    -6.062    -6.133    -0.071     (0)  
+   Quin            1.331e-07   1.340e-07    -6.876    -6.873     0.003     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  H2(g)           -16.45    -19.55   -3.10  H2
+  H2O(g)           -1.50     -0.00    1.50  H2O
+  O2(g)           -50.39    -53.28   -2.89  O2
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+Initial solution 2.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Ca                1.000e-02   1.000e-02
+	Cl                2.000e-02   2.000e-02
+	Quin              1.000e-06   1.000e-06
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   7.500    
+                                       pe  =   4.000    
+      Specific Conductance (µS/cm,  25°C)  = 2293
+                          Density (g/cm³)  =   0.99796
+                               Volume (L)  =   1.00315
+                        Activity of water  =   0.999
+                 Ionic strength (mol/kgw)  =   3.000e-02
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   3.728e-07
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =  -3.728e-07
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
+                               Iterations  =   4 (8 overall)
+                                  Total H  = 1.110124e+02
+                                  Total O  = 5.550622e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             3.790e-07   3.199e-07    -6.421    -6.495    -0.074     -3.94
+   H+              3.618e-08   3.162e-08    -7.442    -7.500    -0.058      0.00
+   H2O             5.551e+01   9.995e-01     1.744    -0.000     0.000     18.07
+Ca            1.000e-02
+   Ca+2            1.000e-02   5.368e-03    -2.000    -2.270    -0.270    -17.74
+   CaOH+           3.314e-08   2.816e-08    -7.480    -7.550    -0.071     (0)  
+Cl            2.000e-02
+   Cl-             2.000e-02   1.692e-02    -1.699    -1.772    -0.073     18.21
+H(0)          1.406e-26
+   H2              7.031e-27   7.079e-27   -26.153   -26.150     0.003     28.61
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -40.083   -40.080     0.003     30.40
+Quin          1.000e-06
+   Quin            9.967e-07   1.004e-06    -6.001    -5.998     0.003     (0)  
+   QuinH+          3.253e-09   2.764e-09    -8.488    -8.558    -0.071     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  H2(g)           -23.05    -26.15   -3.10  H2
+  H2O(g)           -1.50     -0.00    1.50  H2O
+  O2(g)           -37.19    -40.08   -2.89  O2
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 3.
+------------------------------------
+
+	USER_PRINT
+	 start
+	 10 K_d_OC = mol("Org_cQuin") / tot("Quin")
+	 20 K_d_X =  mol("XQuinH") / tot("Quin")
+	 30 print "pH =",-la("H+"), ". K_d(OC) =",K_d_OC, ". K_d(X) =",K_d_X,          ". K_d_tot (L/kg) =", K_d_OC + K_d_X 
+	 end
+	USE solution 1
+	SURFACE 1
+	 Org_c 0.0024e100 1 1
+	 equilibrate 1          # sites of Org_c times 10**100
+	EXCHANGE 1
+	 X 0.084
+	 equilibrate 1
+	END
+-------------------------------------------------------
+Beginning of initial exchange-composition calculations.
+-------------------------------------------------------
+
+Exchange 1.	
+
+X                8.400e-02 mol
+
+	                               Equiv-    Equivalent      Log 
+	Species             Moles      alents      Fraction     Gamma
+
+	CaX2              4.200e-02   8.400e-02   1.000e+00    -0.270
+	XQuinH            2.463e-07   2.463e-07   2.932e-06     0.000
+
+------------------------------------------------------
+Beginning of initial surface-composition calculations.
+------------------------------------------------------
+
+Surface 1.	
+
+Diffuse Double Layer Surface-Complexation Model
+
+Org           
+	  0.000e+00  Surface charge, eq
+	  0.000e+00  sigma, C/m²
+	  0.000e+00  psi, V
+	 -0.000e+00  -F*psi/RT
+	  1.000e+00  exp(-F*psi/RT)
+	  1.000e+00  specific area, m²/g
+	  1.000e+00  m² for   1.000e+00 g
+
+
+Org_c         
+	  2.400e+97  moles
+	                                   Mole                     Log
+	Species               Moles    Fraction    Molality    Molality
+
+	Org_c             2.400e+97       1.000   2.400e+97      97.380
+	Org_cQuin         3.217e-08       0.000   3.217e-08      -7.493
+
+-----------------------------------------
+Beginning of batch-reaction calculations.
+-----------------------------------------
+
+Reaction step 1.
+
+Using solution 1.	
+Using exchange 1.	Exchange assemblage after simulation 3.
+Using surface 1.	
+
+----------------------------------User print-----------------------------------
+
+pH =   4.2000e+00 . K_d(OC) =   3.2169e-02 . K_d(X) =   2.4632e-01 . K_d_tot (L/kg) =   2.7849e-01 
+
+------------------------------Surface composition------------------------------
+
+Diffuse Double Layer Surface-Complexation Model
+
+Org           
+	  0.000e+00  Surface charge, eq
+	  0.000e+00  sigma, C/m²
+	  0.000e+00  psi, V
+	 -0.000e+00  -F*psi/RT
+	  1.000e+00  exp(-F*psi/RT)
+	  1.000e+00  specific area, m²/g
+	  1.000e+00  m² for   1.000e+00 g
+
+
+Org_c         
+	  2.400e+97  moles
+	                                   Mole                     Log
+	Species               Moles    Fraction    Molality    Molality
+
+	Org_c             2.400e+97       1.000   2.400e+97      97.380
+	Org_cQuin         3.217e-08       0.000   3.217e-08      -7.493
+
+-----------------------------Exchange composition------------------------------
+
+X                8.400e-02 mol
+
+	                               Equiv-    Equivalent      Log 
+	Species             Moles      alents      Fraction     Gamma
+
+	CaX2              4.200e-02   8.400e-02   1.000e+00    -0.270
+	XQuinH            2.463e-07   2.463e-07   2.932e-06     0.000
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Ca                1.000e-02   1.000e-02
+	Cl                2.000e-02   2.000e-02
+	Quin              1.000e-06   1.000e-06
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   4.200      Charge balance
+                                       pe  =   4.000      Adjusted to redox equilibrium
+      Specific Conductance (µS/cm,  25°C)  = 2317
+                          Density (g/cm³)  =   0.99796
+                               Volume (L)  =   1.00315
+                        Activity of water  =   0.999
+                 Ionic strength (mol/kgw)  =   3.004e-02
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =  -7.305e-05
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =   7.305e-05
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.18
+                               Iterations  =   0
+                                  Total H  = 1.110125e+02
+                                  Total O  = 5.550622e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              7.218e-05   6.310e-05    -4.142    -4.200    -0.058      0.00
+   OH-             1.900e-10   1.603e-10    -9.721    -9.795    -0.074     -3.94
+   H2O             5.551e+01   9.995e-01     1.744    -0.000     0.000     18.07
+Ca            1.000e-02
+   Ca+2            1.000e-02   5.367e-03    -2.000    -2.270    -0.270    -17.74
+   CaOH+           1.661e-11   1.411e-11   -10.780   -10.850    -0.071     (0)  
+Cl            2.000e-02
+   Cl-             2.000e-02   1.692e-02    -1.699    -1.772    -0.073     18.21
+H(0)          5.598e-20
+   H2              2.799e-20   2.818e-20   -19.553   -19.550     0.003     28.61
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -53.283   -53.280     0.003     30.40
+Quin          1.000e-06
+   QuinH+          8.669e-07   7.366e-07    -6.062    -6.133    -0.071     (0)  
+   Quin            1.331e-07   1.340e-07    -6.876    -6.873     0.003     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  H2(g)           -16.45    -19.55   -3.10  H2
+  H2O(g)           -1.50     -0.00    1.50  H2O
+  O2(g)           -50.39    -53.28   -2.89  O2
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 4.
+------------------------------------
+
+	USE solution 2
+	SURFACE 2
+	 Org_c 0.0024e100 1 1
+	 equilibrate 2
+	EXCHANGE 2
+	 X 0.084
+	 equilibrate 2
+	END
+-------------------------------------------------------
+Beginning of initial exchange-composition calculations.
+-------------------------------------------------------
+
+Exchange 2.	
+
+X                8.400e-02 mol
+
+	                               Equiv-    Equivalent      Log 
+	Species             Moles      alents      Fraction     Gamma
+
+	CaX2              4.200e-02   8.400e-02   1.000e+00    -0.270
+	XQuinH            9.244e-10   9.244e-10   1.100e-08     0.000
+
+------------------------------------------------------
+Beginning of initial surface-composition calculations.
+------------------------------------------------------
+
+Surface 2.	
+
+Diffuse Double Layer Surface-Complexation Model
+
+Org           
+	  0.000e+00  Surface charge, eq
+	  0.000e+00  sigma, C/m²
+	  0.000e+00  psi, V
+	 -0.000e+00  -F*psi/RT
+	  1.000e+00  exp(-F*psi/RT)
+	  1.000e+00  specific area, m²/g
+	  1.000e+00  m² for   1.000e+00 g
+
+
+Org_c         
+	  2.400e+97  moles
+	                                   Mole                     Log
+	Species               Moles    Fraction    Molality    Molality
+
+	Org_c             2.400e+97       1.000   2.400e+97      97.380
+	Org_cQuin         2.409e-07       0.000   2.409e-07      -6.618
+
+-----------------------------------------
+Beginning of batch-reaction calculations.
+-----------------------------------------
+
+Reaction step 1.
+
+Using solution 2.	
+Using exchange 2.	Exchange assemblage after simulation 4.
+Using surface 2.	
+
+----------------------------------User print-----------------------------------
+
+pH =   7.5000e+00 . K_d(OC) =   2.4088e-01 . K_d(X) =   9.2441e-04 . K_d_tot (L/kg) =   2.4180e-01 
+
+------------------------------Surface composition------------------------------
+
+Diffuse Double Layer Surface-Complexation Model
+
+Org           
+	  0.000e+00  Surface charge, eq
+	  0.000e+00  sigma, C/m²
+	  0.000e+00  psi, V
+	 -0.000e+00  -F*psi/RT
+	  1.000e+00  exp(-F*psi/RT)
+	  1.000e+00  specific area, m²/g
+	  1.000e+00  m² for   1.000e+00 g
+
+
+Org_c         
+	  2.400e+97  moles
+	                                   Mole                     Log
+	Species               Moles    Fraction    Molality    Molality
+
+	Org_c             2.400e+97       1.000   2.400e+97      97.380
+	Org_cQuin         2.409e-07       0.000   2.409e-07      -6.618
+
+-----------------------------Exchange composition------------------------------
+
+X                8.400e-02 mol
+
+	                               Equiv-    Equivalent      Log 
+	Species             Moles      alents      Fraction     Gamma
+
+	CaX2              4.200e-02   8.400e-02   1.000e+00    -0.270
+	XQuinH            9.244e-10   9.244e-10   1.100e-08     0.000
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Ca                1.000e-02   1.000e-02
+	Cl                2.000e-02   2.000e-02
+	Quin              1.000e-06   1.000e-06
+
+----------------------------Description of solution----------------------------
+
+                                       pH  =   7.500      Charge balance
+                                       pe  =   4.000      Adjusted to redox equilibrium
+      Specific Conductance (µS/cm,  25°C)  = 2293
+                          Density (g/cm³)  =   0.99796
+                               Volume (L)  =   1.00315
+                        Activity of water  =   0.999
+                 Ionic strength (mol/kgw)  =   3.000e-02
+                       Mass of water (kg)  =   1.000e+00
+                 Total alkalinity (eq/kg)  =   3.728e-07
+                         Temperature (°C)  =  25.00
+                  Electrical balance (eq)  =  -3.728e-07
+ Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
+                               Iterations  =   0
+                                  Total H  = 1.110124e+02
+                                  Total O  = 5.550622e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             3.790e-07   3.199e-07    -6.421    -6.495    -0.074     -3.94
+   H+              3.618e-08   3.162e-08    -7.442    -7.500    -0.058      0.00
+   H2O             5.551e+01   9.995e-01     1.744    -0.000     0.000     18.07
+Ca            1.000e-02
+   Ca+2            1.000e-02   5.368e-03    -2.000    -2.270    -0.270    -17.74
+   CaOH+           3.314e-08   2.816e-08    -7.480    -7.550    -0.071     (0)  
+Cl            2.000e-02
+   Cl-             2.000e-02   1.692e-02    -1.699    -1.772    -0.073     18.21
+H(0)          1.406e-26
+   H2              7.031e-27   7.079e-27   -26.153   -26.150     0.003     28.61
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -40.083   -40.080     0.003     30.40
+Quin          1.000e-06
+   Quin            9.967e-07   1.004e-06    -6.001    -5.998     0.003     (0)  
+   QuinH+          3.253e-09   2.764e-09    -8.488    -8.558    -0.071     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  H2(g)           -23.05    -26.15   -3.10  H2
+  H2O(g)           -1.50     -0.00    1.50  H2O
+  O2(g)           -37.19    -40.08   -2.89  O2
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 5.
+------------------------------------
+
+-------------------------------
+End of Run after 1.392 Seconds.
+-------------------------------
+

@@ -1,0 +1,21 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.4.0-12927\database\phreeqc.dat
+Solution 1	#rainwater solution from table 2.2a
+	units umol/L
+	Na	0.004
+	
+
+#1.a
+USER_PRINT	#prints the concentrations of the Ca+2, Na+ and Cl- species to the phreeqc output file
+	10 REM convert mol to ppm
+	20 PRINT "Sodium" MOL("Na+")*22.989*1000
+	
+
+#1.b
+SELECTED_OUTPUT 	#writes the solution, temperature, ph and total elemental concentrations of Na, Ca, Cl, SO4-2, NH4+ and NO3- to the file exercise1.sel
+	-file exercise1.xls
+	-reset false
+	-solution true
+	-ph false
+	-temp flase
+	-totals Na
+END

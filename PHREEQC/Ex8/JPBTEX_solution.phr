@@ -1,0 +1,159 @@
+# Solubility of jetfuel substances in water
+SOLUTION_MASTER_SPECIES
+	Naph Naph 0 Naph 128.174  	# Naphtalene
+	Tolu Tolu 0 Tolu 92.141  	# Toluene
+	Ndecane	Ndecane 0 Ndecane 142	# Decane
+SOLUTION_SPECIES
+	Naph = Naph
+		log_k 0
+	Tolu = Tolu
+		log_k 0
+	Ndecane = Ndecane
+		log_k 0
+
+# Define the solubility...
+PHASES
+	Naph_lq
+	Naph = Naph
+		log_k -3.62	# 31.6 mg/L
+	Tolu_lq
+	Tolu = Tolu
+		log_k -2.25	# 515 mg/L
+	Ndecane_lq
+	Ndecane = Ndecane	# 0.052 mg/L
+		log_k -6.43	
+	
+# pipette the chemicals...
+SOLID_SOLUTIONS 1
+	Pool
+	-comp Naph_lq 0.031e-4
+	-comp Tolu_lq 0.116e-4
+	-comp Ndecane_lq 5.634e-4
+	
+# take 0.1 L pure water...
+SOLUTION 1
+	-water 0.1
+END
+
+# mix water and chemicals...
+USE solution 1
+USE solid_solutions 1
+SAVE solid_solutions 1      # the pool of chemicals after dissolution
+
+USER_GRAPH                  # plot the composition...
+	-connect_simulations
+	-axis_titles "Extraction" "mg / L"
+	-axis_scale x_axis 1 50 1  # minimum, maximum, major interval
+# -axis_scale y_axis        # automatic scaling, or define if you like...
+	-headings Extr_no Tolu Naph Decane
+	-start
+	10 graph_x sim_no - 1      # extraction no. on x-axis
+	20 graph_y tot("Tolu")*92.141e3
+	30 graph_sy tot("Naph")*128.174e3, tot("Ndecane")*142e3
+	-end
+END
+# 2nd extraction..
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+# 3rd extraction, etc...
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+USE solid_solutions 1; USE solution 1; SAVE solid_solutions 1
+END
+
+
+

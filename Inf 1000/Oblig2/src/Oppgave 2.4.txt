@@ -1,0 +1,24 @@
+Oppgave 2.4
+
+a)
+Kompileringsfeil oppstår når koden er skrevet på en slik måte at den ikke kan leses av i Java, f.eks om man glemmer ";"
+Kjørefeil er feil som skjer når koden kjøres, det kan være en kode som java forstår helt greit, men dersom man prøver å dele et tall på 0 vill det oppstå en kjørefeil
+
+b)
+
+1. 
+Skrive "public class" i stedenfor "Class" i linge 1.
+Skrive "System" med stor S og huske semikolon i linje 3
+
+2.
+I linje én står det "Class Feilmeldinger". Her skulle det ha stått public class. Koden har glemt public og skrevet Class med stor C.
+Den andre linjen kommer også fordi Java ikke kan finne noen public class.
+
+3.
+I feilmeldingene ser vi at kompilatoren prøver å finne en public class, og den skriver flere feilmeldinger for steder der den ikke finner en.
+Fremgangsmåten her vil være å sjekke den øverste feilmeldingen, rette den og prøve å kompilere på nytt.
+Nå som den klarer å kompilere videre inn i programmet vil det bli oppdaget flere feil som også må rettes.
+
+4.
+Igjen, srive System med stor S og huske semikolon.
+
